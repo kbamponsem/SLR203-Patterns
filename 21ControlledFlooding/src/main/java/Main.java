@@ -2,6 +2,7 @@ import actors.Node;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import messages.Message;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,6 +29,7 @@ public class Main {
 
         // we start the algorithm
         nodeA.tell("START", ActorRef.noSender());
+        nodeA.tell("START2", ActorRef.noSender());
         try{
             Thread.sleep(5000);
         }catch (Exception e){

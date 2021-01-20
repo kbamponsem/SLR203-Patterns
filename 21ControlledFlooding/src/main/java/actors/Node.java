@@ -4,9 +4,11 @@ import akka.actor.ActorRef;
 import akka.actor.UntypedAbstractActor;
 import messages.Message;
 
+import java.util.Vector;
+
 public class Node extends UntypedAbstractActor {
     ActorRef[] neighbors;
-    int sequenceNumber = -1;
+    Vector<Integer> sequenceNumber = new Vector<>();
     @Override
     public void onReceive(Object message) throws Throwable {
         if(message instanceof ActorRef[]){
@@ -18,7 +20,13 @@ public class Node extends UntypedAbstractActor {
                 for(ActorRef ref: neighbors){
                     ref.tell(new Message("hello", 0), getSelf());
                 }
-            }else{
+            }
+            if (message.equals("START2")){
+                for(ActorRef ref: neighbors){
+                    ref.tell(new Message("hi", 1), getSelf());
+                }
+            }
+            else{
 
             }
         }
@@ -30,10 +38,10 @@ public class Node extends UntypedAbstractActor {
 
             for (ActorRef ref : neighbors) {
 
-                if (sequenceNumber == ((Message) message).getSequnceNumber()) {
+                if (sequenceNumber.contains(((Message) message).getSequnceNumber())) {
                     System.out.println("Message dropped at " + getSelf().path().name());
                 } else {
-                    sequenceNumber = ((Message) message).getSequnceNumber();
+                    sequenceNumber.add(((Message) message).getSequnceNumber());
                     ref.tell(message, getSelf());
 
                 }
