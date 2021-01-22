@@ -16,4 +16,4 @@ After the creation of nodes, the neighbors of each node are sent by `ActorRef.no
 ## How nodes communicate
 
 Nodes, upon receiving messages from its neighbors, forwards them to its receiving neighbors. Since this graph
-is directed, communication is unidirectional. Also, the neighbors (nodes receiving from a node) are displayed.
+is directed, inter-node communication is unidirectional. Also, the neighbors (nodes receiving from a node) are displayed.
