@@ -13,7 +13,5 @@ After the creation of nodes, the neighbors of each node are sent by `ActorRef.no
     node3.tell(new ActorRef[]{node3, node1}, ActorRef.noSender());
 
 
-## How nodes communicate
 
-Nodes, upon receiving messages from its neighbors, forwards them to its receiving neighbors. Since this graph
-is directed, inter-node communication is unidirectional. Also, the neighbors (nodes receiving from a node) are displayed.
+The neighbors (nodes receiving from a node) are displayed each node.

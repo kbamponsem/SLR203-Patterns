@@ -25,4 +25,6 @@ In addition, each node has a vector for sequence numbers. This is used to distin
         drop message;
     else
         send message -> allNeighbors;
+
+This algorithm illustrates controlled flooding within the network.
     
