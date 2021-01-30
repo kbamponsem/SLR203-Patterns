@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="760ed591-85c0-4b68-8b2c-3bc16f518071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/RequestDontWaitForResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/actors/ActorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/actors/ActorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11Convergecast/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12Multicast/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9RespondTo/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13PublishSubscribe/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../13PublishSubscribe/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/SessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/SessionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/SessionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9RespondTo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9RespondTo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9RespondTo/IMPLEMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/../10BroadcastRoundRobin/Implementation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +41,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -45,10 +64,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../7RequestDontWaitForResponse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../INF583/WEEK3/wordcount" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

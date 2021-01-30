@@ -24,11 +24,14 @@ public class Client extends UntypedAbstractActor {
             session = ((Session) message).getSession();
             sessionManager = getSender();
             session.tell(new Request("m1"), getSelf());
+            session.tell(new Request("hello"), getSelf());
+            session.tell(new Request("hi"), getSelf());
+            session.tell(new Request("hesdflk i"), getSelf());
+            session.tell(new Request("sdflkjfk"), getSelf());
         }
         if (message instanceof Response) {
-            System.out.println("Response received: "+ ((Response) message).getMessage()+ " from "+getSender().path().name());
+            System.out.println("Response received: " + ((Response) message).getMessage() + " from " + getSender().path().name());
             sessionManager.tell("endSession", getSelf());
-            session.tell(new Request("m3"), getSelf());
         }
     }
 }

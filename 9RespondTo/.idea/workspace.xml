@@ -5,31 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7631d83f-5eb6-4973-96e0-eb2dd44b6c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/RequestDontWaitForResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/actors/ActorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/actors/ActorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/src/main/java/util/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/actors/ActorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/actors/ActorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/util/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/util/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/src/main/java/util/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/piped/actors/ActorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/piped/actors/ActorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/piped/actors/ActorC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/actors/ActorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/actors/ActorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/regular/actors/ActorC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11Convergecast/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12Multicast/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/Implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13PublishSubscribe/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../13PublishSubscribe/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14LoadBalancerRoundRobin/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/Implementation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/Implementation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/src/main/java/actors/SessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/SessionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16SessionChildActor/target/classes/actors/SessionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6TellAndForget/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6TellAndForget/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6TellAndForget/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6TellAndForget/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6TellAndForget/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6TellAndForget/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6TellAndForget/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6TellAndForget/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7RequestDontWaitForResponse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8RequestBlockWaitForResponse_ASK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMPLEMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/../10BroadcastRoundRobin/Implementation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/piped/actors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jnvm/test-project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

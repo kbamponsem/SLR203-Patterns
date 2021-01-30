@@ -16,8 +16,9 @@ public class SessionManager extends UntypedAbstractActor {
         if (message instanceof String){
             if(message.equals("createSession")){
 
-                Session session = new Session(getContext().getSystem().actorOf(Props.create(actors.Session.class), "session1"), getSender(), "session1");
-                System.out.println("Session created for " + getSender().path().name() + " with sessionId " + "session1");
+                long sessionId = System.nanoTime();
+                Session session = new Session(getContext().getSystem().actorOf(Props.create(actors.Session.class), "session"+sessionId), getSender(), "session1");
+                System.out.println("Session created for " + getSender().path().name() + " with sessionId " + sessionId);
                 clientSession.put(getSender(), session);
                 getSender().tell(session, getSelf());
             }
